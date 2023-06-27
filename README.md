@@ -1,6 +1,6 @@
 ﻿# UserPatternExplorer
  
-UserPatternExplorer is a Python-based tool designed to analyze user behavior in login logs. It navigates through CSV log files to track and record unique user activities based on specified data fields (e.g., Country, Region, ISP). The output provides an insightful view of the diverse behaviors exhibited by users, thereby aiding in activities such as anomaly detection, user behavior profiling, and more.
+UserPatternExplorer is a Python-based tool designed to analyze user behavior in logs. It navigates through CSV log files to track and record unique user activities based on specified data fields (e.g., Country, Region, ISP). The output provides an insightful view of the diverse behaviors exhibited by users, thereby aiding in activities such as anomaly detection, user behavior profiling, and more.
 
 ## Features
 
@@ -15,7 +15,7 @@ Python 3.6+
 UserPatternExplorer can be run from the command line with the following arguments:
 
 ```
-python UserPatternExplorer.py -f input.csv -u User -c Country:Region:ISP
+python UserPatternExplorer.py -f input.csv -u UserColumnName -c Column1Name:Column2Name:Column3Name:etc
 ```
 
 * -f: Path to the input CSV file
